@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dynamic Fields - Day #29</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- include font awesome -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+  <h1>Dynamic Fields Javascript</h1>
+  
+    <form method="post" action="UploadServlet" enctype="multipart/form-data" class="FileForm">
+      	<div class="wrapper">
+    		<div id="survey_options">
+      	
+      		<input type="text" name="FullName" id="name" placeholder="Enter Name" maxlength="20"/><br>
+			<input type="text" name="HomeAddress" id="address" placeholder="Enter Address" maxlength="20"/><br>
+		
+			<input type="file" name="File1" id="File1" class="File_options"/><br>
+			</div>
+			<div class="controls">
+				<a id="add_more_fields"><input type="button" value="Add More"></a>
+     			<a  id="remove_fields"><input type="button" value="Remove Field"></a><br>
+			</div>
+			<input type="Submit" name="Submit" value="Submit"/> 
+	
+    </div>
+    
+  </form>
+<script src="Script.js"></script>
+</body>
+</html>
