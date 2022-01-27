@@ -8,23 +8,9 @@
 
 <body>
 
-<%
-String msg = request.getParameter("msg");
-System.out.println(msg);
-
-if (msg == null){
- msg="";
-
-}
-%>
-
-<table>
-<tr>
-<td><%=msg %></td>
 
 
-</tr>
-</table>
+
 
 	 <form method="post" action="<%=request.getContextPath() %>/UploadServlet" enctype="multipart/form-data" class="FileForm">
       	
@@ -51,6 +37,6 @@ if (msg == null){
   %>  
   
   
-<script src="AddMore.js"></script>
+<script src="AddMore.js" defer></script>
 </body>
 </html>

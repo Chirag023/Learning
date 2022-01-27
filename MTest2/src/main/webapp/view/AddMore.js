@@ -1,7 +1,9 @@
 var FormOptions = document.getElementById('formOptions');
 var add_more_fields = document.getElementById('add_more_fields');
 var remove_fields = document.getElementById('remove_fields');
-var fileCheck = documant.getElementById('file_check');
+
+//var fileCheck = documant.getElementById('file_check'); need to check how to add this here
+
 
 var i = 2;
 
@@ -34,7 +36,6 @@ remove_fields.onclick = function(){
 		
 	}
 }
-
 
 
 
